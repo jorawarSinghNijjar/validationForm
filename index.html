@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>jQuery</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+</head>
+<body>
+    <div id="logged-in"><h5><span id="username"></span>, Logged In Successfully!</h5></div>
+    <div id="missing"><h5>Missing Fields</h5></div>
+    <div id="invalid-field"><h5>Invalid Fields</h5></div>
+    <h3 id="output"></h3>
+    <div id="wrapper">
+
+        <label for="email">Email:</label>
+        <input type="text" id="email" name="email" placeholder="example@abc.com">
+        <div id="email-end"></div>
+
+        <label for="phone">Phone No:</label>
+        <input type="text" id="phone" name="phone" placeholder="(123)-456-7891">
+        
+        <label for="password">Password:</label>
+        <input type="password" id="password" name="password" placeholder="Atleast 8 characters">
+       
+        <label for="conf-password">Confirm Password:</label>
+        <input type="password" id="conf-password" name="conf-password" >
+       
+        <button>Submit</button>
+    </div>
+    
+    
+    <script src="app.js"></script>
+</body>
+</html>
